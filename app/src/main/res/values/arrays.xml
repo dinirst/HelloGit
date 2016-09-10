@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Class">
+        <item>X Programming 1</item>
+        <item>X Programming 2</item>
+        <item>X Programming 3</item>
+        <item>X Programming 4</item>
+        <item>X Programming 5</item>
+        <item>X Programming 6</item>
+        <item>X Networking 1</item>
+        <item>X Networking 2</item>
+        <item>X Networking 3</item>
+        <item>X Networking 4</item>
+        <item>X Networking 5</item>
+        <item>X Networking 6</item>
+    </string-array>
+    >
+</resources>

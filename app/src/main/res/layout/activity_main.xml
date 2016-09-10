@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.tugas01.xirpl6010.tugas1.MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="164dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/comet"/>
+
+        <TextView
+            android:id="@+id/textViewCM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration Form Sub Organization Comet"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="8pt"/>
+
+        <EditText
+            android:id="@+id/editTextNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            />
+
+        <TextView
+            android:id="@+id/textViewK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class"/>
+
+        <Spinner
+            android:id="@+id/spinnerKL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Class"/>
+
+        <TextView
+            android:id="@+id/textViewJK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Male"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonFM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Female"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewMT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Material you want controlled"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Speaking"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxLT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Listening"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxWR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Writing"/>
+
+        <Button
+            android:id="@+id/buttonSB"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hasil"/>
+
+    </LinearLayout>
+</ScrollView>
