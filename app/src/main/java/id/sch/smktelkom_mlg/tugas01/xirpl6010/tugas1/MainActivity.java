@@ -60,8 +60,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void doProcess() {
-        String name = etNama.getText().toString();
-        tvHN.setText("Name : " + name);
+        if (isValid()) {
+            String name = etNama.getText().toString();
+            tvHN.setText("Name : " + name);
+        }
     }
 
     private void doClick() {
