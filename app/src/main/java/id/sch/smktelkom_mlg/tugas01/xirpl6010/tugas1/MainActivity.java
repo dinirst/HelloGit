@@ -78,6 +78,16 @@ public class MainActivity extends AppCompatActivity {
         } else {
             tvGD.setText("Gender : " + GD);
         }
+
+        String MR = "Materials you want controlled are : \n";
+        int startlen = MR.length();
+        if (cbLT.isChecked()) MR += cbLT.getText() + "\n";
+        if (cbSP.isChecked()) MR += cbSP.getText() + "\n";
+        if (cbWR.isChecked()) MR += cbWR.getText() + "\n";
+
+        if (MR.length() == startlen) MR += "No items choosen";
+
+        tvMR.setText(MR);
     }
 
     private boolean isValid() {
