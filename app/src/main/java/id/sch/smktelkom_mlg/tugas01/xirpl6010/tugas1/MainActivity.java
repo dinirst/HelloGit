@@ -66,7 +66,18 @@ public class MainActivity extends AppCompatActivity {
 
     private void doClick() {
         tvHC.setText("Class : " + spKL.getSelectedItem().toString());
+        String GD = null;
 
+        if (rbM.isChecked()) {
+            GD = rbM.getText().toString();
+        } else if (rbFM.isChecked()) {
+            GD = rbFM.getText().toString();
+        }
+        if (GD == null) {
+            tvGD.setText("Choose your gender!");
+        } else {
+            tvGD.setText("Gender : " + GD);
+        }
     }
 
     private boolean isValid() {
