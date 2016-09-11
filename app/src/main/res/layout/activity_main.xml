@@ -57,6 +57,7 @@
             android:text="Gender"/>
 
         <RadioGroup
+            android:id="@+id/radioGroupG"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -109,7 +110,25 @@
             android:text="Submit"/>
 
         <TextView
-            android:id="@+id/textViewHasil"
+            android:id="@+id/textViewHN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hasil"/>
+
+        <TextView
+            android:id="@+id/textViewHC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hasil"/>
+
+        <TextView
+            android:id="@+id/textViewGD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hasil"/>
+
+        <TextView
+            android:id="@+id/textViewMR"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Hasil"/>
