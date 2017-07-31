@@ -6,7 +6,7 @@ Nama  : Dini Eka Ristanti<br>
 Kelas : XI RPL 6 <br>
 Absen : 10 <br>
 NIS   : 4700/1419.070<br>
-![1](https://cloud.githubusercontent.com/assets/22124865/19384127/e289d83c-9231-11e6-8626-03b164ea435f.jpeg)
-![2](https://cloud.githubusercontent.com/assets/22124865/19384128/e28cd244-9231-11e6-87e7-9ac28af2c145.jpeg)
-![3](https://cloud.githubusercontent.com/assets/22124865/19384129/e2a8e150-9231-11e6-985a-00166c341f65.jpeg)
+![1](https://cloud.githubusercontent.com/assets/22124865/19384127/e289d83c-9231-11e6-8626-03b164ea435f.jpeg)<br>
+![2](https://cloud.githubusercontent.com/assets/22124865/19384128/e28cd244-9231-11e6-87e7-9ac28af2c145.jpeg)<br>
+![3](https://cloud.githubusercontent.com/assets/22124865/19384129/e2a8e150-9231-11e6-985a-00166c341f65.jpeg)<br>
 
